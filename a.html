@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>Happy birthday shivangi</title>
+        <style>
+            /* .container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+            } */
+            /* For better visibility of the example */
+            body {
+              margin: 80px 200px;
+              background-color: #cccccc;
+              font-size: 30px;
+            }
+            /* Message box starts here */
+            .container {
+              clear: both;
+              position: relative;
+            }
+            .container .arrow {
+              width: 12px;
+              height: 20px;
+              overflow: hidden;
+              position: relative;
+              float: left;
+              top: 6px;
+              right: -1px;
+            }
+            .container .arrow .outer {
+              width: 0;
+              height: 0;
+              border-right: 20px solid #000000;
+              border-top: 10px solid transparent;
+              border-bottom: 10px solid transparent;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            .container .arrow .inner {
+              width: 0;
+              height: 0;
+              border-right: 20px solid #ffffff;
+              border-top: 10px solid transparent;
+              border-bottom: 10px solid transparent;
+              position: absolute;
+              top: 0;
+              left: 2px;
+            }
+            .container .message-body {
+              float: left;
+              width: 300px;
+              height: auto;
+              border: 1px solid #CCC;
+              background-color: #ffffff;
+              border: 1px solid #000000;
+              padding: 6px 8px;
+              -webkit-border-radius: 5px;
+              -moz-border-radius: 5px;
+              -o-border-radius: 5px;
+              border-radius: 5px;
+            }
+            .container .message-body p {
+              margin: 0;
+            }
+        </style>
+    </head>
+    <body align=center>
+        <audio id="musicplayer" autoplay controls>
+            <source autoplay src="squid.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+            var vAudio = document.getElementById("musicplayer");
+            var hasInit = false;
+            function playMusic()
+            {
+               if(!hasInit)
+               {
+                   hasInit = true;
+                   vAudio.play();
+               }
+            }
+
+        </script>
+        <div class="container" onclick="playMusic()">
+            <div class="arrow">
+              <div class="outer"></div>
+              <div class="inner"></div>
+            </div>
+            <div class="message-body">
+              <p>Welcome to the Gift hunt</p> 
+            </div>
+          </div>
+          <br>
+          <div class="container">
+            <div class="arrow">
+              <div class="outer"></div>
+              <div class="inner"></div>
+            </div>
+            <div class="message-body">
+              <p>Following all hints in correct manner will reach you towords your birthday gift</p> 
+            </div>
+          </div>
+          <div class="container">
+            <div class="arrow">
+              <div class="outer"></div>
+              <div class="inner"></div>
+            </div>
+            <div class="message-body">
+              <p>Any wrong mistake may lead your gift to be transferred to Mr. Bhalu and Tarbuja</p> 
+            </div>
+          </div>
+          <div class="container">
+            <div class="arrow">
+              <div class="outer"></div>
+              <div class="inner"></div>
+            </div>
+            <div class="message-body">
+              <p>Hint-1 Go to the face where we personally talk face to face for 1st time in khargone home</p> 
+            </div>
+          </div>
+    </body>
+</html>
